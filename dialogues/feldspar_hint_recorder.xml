@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey kid! Looks like you found my recording, no surprise there. Esker’s always been on the side of safety over adventure, so I’m sure they didn’t put it anywhere too fun. So, how about I send you on a more proper adventure!</Page>
+      <Page>I’ve got Chert’s recording in my hand here, and I’m thinking I’m gonna send you to one of the places on my to-do list.</Page>
+      <Page>Seeing as one of them is Dark Bramble, and even I’m a fair deal nervous about going there, I think I’ll leave it in the last place I’m going before that. Catch is, you’ve gotta figure out where that is and how to get there!</Page>
+      <Page>Also, the second part of the combination is the middle button. Have fun, hatchling!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

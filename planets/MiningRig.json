@@ -1,0 +1,40 @@
+{
+  "name": "MiningRig",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "Props": {
+    "details": [
+      {
+        "rename": "feldspar_hint_recorder",
+        "path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_HEA_Recorder",
+        "parentPath": "Structure_TH_HEA_MiningRig",
+        "isRelativeToParent": true,
+        "removeComponents": true,
+        "position": {
+          "x": 0.6285,
+          "y": 3.2361,
+          "z": -3.889
+        },
+        "rotation": {
+          "x": 3.628,
+          "y": 9.643,
+          "z": 0.0002
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "rename": "feldspar_recorder_dialogue",
+        "parentPath": "Structure_TH_HEA_MiningRig/feldspar_hint_recorder/",
+        "xmlFile": "dialogues/feldspar_hint_recorder.xml",
+        "radius": 3,
+        "range": 5,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "isRelativeToParent": true
+      }
+    ]
+  }
+}

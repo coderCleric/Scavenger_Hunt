@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Slate</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <SetPersistentCondition>slateHuntHintGiven</SetPersistentCondition>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Oh, hey! I almost forgot to tell you about that!</Page>
+      <Page>All the travelers worked together to set up a little scavenger hunt for you, kinda like an "Introduction to the Solar System," I think. Even Feldspar made sure to participate before they, y’know, disappeared.</Page>
+      <Page>Anyway, the first hint is a recording from Esker, sitting right next to me. They should give you a better idea of what exactly you’re supposed to be doing for this.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

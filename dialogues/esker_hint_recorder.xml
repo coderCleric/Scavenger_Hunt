@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey hatchling! If you're listening to this, that means that Slate’s done their job and given you a bit of an intro to what we’ve set up for you. I’m gonna go ahead and give you some more details though, since we didn’t keep Slate fully informed lest they spoil the surprise like they did for your birthday party that one time.</Page>
+      <Page>Anyway, I’m rambling again. Welcome to the first Outer Wilds Ventures Onboarding Scavenger Hunt! The other travelers and I have hid a number of hints throughout the solar system, each with two pieces of information that you’ll need to finish.</Page>
+      <Page>The first thing each hint will have is, well, a hint about where to find the next one. The second thing they’ll have is a part of the code to open that safe next to the launchpad elevator.</Page>
+      <Page>Now, you’ve got all of the time in the world to complete this hatchling, so take your time and stay safe. We figure that this will also serve as a decent introduction to the solar system, so keep your eyes open and have fun!</Page>
+      <Page>...</Page>
+      <Page>Oh right, the hint and combination segment! Okay, so, the first button you’re gonna need to hit is the third one.</Page>
+      <Page>As for the next recording, well, it’s gonna be from Feldspar and, knowing them, I figured you’re gonna need to know how to repair your ship to go where they send you. So, I’ve taken the liberty of putting their recording somewhere where you can get some practice. Good luck!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>
