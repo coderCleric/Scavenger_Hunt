@@ -8,4 +8,4 @@ within the vault?<br />
 This mod was made for the 1-year anniversary mod jam (Jan 2023).
 
 # Requirments
-This mod is an addon for New Horizons, so it naturally requires that mod in order to function.
+This mod is an addon for New Horizons, so it requires that mod in order to function.
