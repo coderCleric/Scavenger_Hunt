@@ -5,6 +5,7 @@
   <Entry>
     <ID>HAL_HINT_ENTRY</ID>
     <Name>Mystery Hint</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>HAL_HINT_RUMOR</ID>

@@ -6,6 +6,7 @@
     <ID>VAULT_ENTRY</ID>
     <Name>Clockwork Vault</Name>
     <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
+    <IsCuriosity/>
 
     <RumorFact>
       <ID>VAULT_RUMOR</ID>
@@ -58,6 +59,7 @@
   <Entry>
     <ID>ESKER_HINT_ENTRY</ID>
     <Name>Esker's Hint</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
   
     <RumorFact>
       <ID>ESKER_HINT_RUMOR</ID>
@@ -79,6 +81,7 @@
   <Entry>
     <ID>FELDSPAR_HINT_ENTRY</ID>
     <Name>Feldspar's Hint</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
   
     <RumorFact>
       <ID>FELDSPAR_HINT_RUMOR</ID>
@@ -96,6 +99,7 @@
   <Entry>
     <ID>RIEBECK_HINT_ENTRY</ID>
     <Name>Riebeck's Hint</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
   
     <RumorFact>
       <ID>RIEBECK_HINT_RUMOR</ID>

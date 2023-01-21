@@ -5,6 +5,7 @@
   <Entry>
     <ID>GABBRO_HINT_ENTRY</ID>
     <Name>Gabbro's Hint</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>GABBRO_HINT_RUMOR</ID>

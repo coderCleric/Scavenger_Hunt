@@ -5,6 +5,7 @@
   <Entry>
     <ID>CHERT_HINT_ENTRY</ID>
     <Name>Chert's Hint</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
 
     <RumorFact>
       <ID>CHERT_HINT_RUMOR</ID>
