@@ -1,0 +1,20 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>ATTELROCK</ID>
+
+  <!--The entry for Gabbro's hint-->
+  <Entry>
+    <ID>HAL_HINT_ENTRY</ID>
+    <Name>Mystery Hint</Name>
+
+    <RumorFact>
+      <ID>HAL_HINT_RUMOR</ID>
+      <SourceID>RIEBECK_HINT_ENTRY</SourceID>
+      <Text>Riebeck says that there's a recording from a mystery hearthian at Esker's favorite spot for listening to the other travelers music.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>HAL_HINT_FOUND_FACT</ID>
+      <Text>I found a hint from Hal on the Attelrock's north pole.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

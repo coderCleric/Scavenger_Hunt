@@ -1,0 +1,21 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>H-hey, hatchling! Hope you’re doing well! Although, I guess you listening to this means that you have to at least be alive, right?</Page>
+      <Page>Unless you, like, crashed nearby and some rubble hit the play button, in which case you totally might be dead. Ah, I’m rambling again, sorry.</Page>
+      <Page>Anyway, the next button you need to press is the, um,  right one… again. I would say the last button you need to press but, um, surprise! You actually still have one more hint to find. I would tell you who from but, uh, they asked that I keep it a surprise.</Page>
+      <Page>When I get scared out here, in space I mean, one of the big things that helps me is that I can pull out my signalscope, listen to the other travelers, and know I’m not alone.</Page>
+      <Page>I know that that’s, well, really sappy, but I really do mean it, and I wanted to involve that in where I hid the last recording. So, um, I put it at Esker’s favorite spot to listen to the other travelers. S-stay safe hatchling!</Page>
+    </Dialogue>
+
+    <RevealFacts>
+      <FactID>RIEBECK_HINT_FOUND_FACT</FactID>
+      <FactID>RIEBECK_COMBO_PART</FactID>
+      <FactID>HAL_HINT_RUMOR</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

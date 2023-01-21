@@ -13,5 +13,12 @@
       <Page>Oh right, the hint and combination segment! Okay, so, the first button you’re gonna need to hit is the third one.</Page>
       <Page>As for the next recording, well, it’s gonna be from Feldspar and, knowing them, I figured you’re gonna need to know how to repair your ship to go where they send you. So, I’ve taken the liberty of putting their recording somewhere where you can get some practice. Good luck!</Page>
     </Dialogue>
+    
+    <RevealFacts>
+      <FactID>ESKER_HINT_FOUND_FACT</FactID>
+      <FactID>HUNT_EXPLANATION_FACT</FactID>
+      <FactID>ESKER_COMBO_PART</FactID>
+      <FactID>FELDSPAR_HINT_RUMOR</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>

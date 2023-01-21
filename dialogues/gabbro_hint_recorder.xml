@@ -1,0 +1,21 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Nice, looks like you found my recording, wherever Chert hid it. Hopefully nowhere too uncomfy, you’ll have to tell me where it falls on the Gabbro Relaxation Scale when you come say hi, heh.</Page>
+      <Page>Anyway, the next button you’re gonna need to press is the first one. As in the farthest to the left, not the first button you had to press. Anyway, the hint…</Page>
+      <Page>Oh, that’s right, I hid Riebecks hint. Heh, don’t know how I forgot, they made me promise them three separate times that I wasn’t going to put it anywhere dangerous. They’ve always been such a worrywort, but they still manage to haul themself into space to look at old ruins. All I have to say for the hint is this.</Page>
+      <Page>The quiet shade, where the trees do move, in the ancient glade, I’ve left something for you.</Page>
+      <Page>I know I know, it’s not great, but hey, cut me some slack, I’m trying to work an old poem into a hint, so it’s not perfect. Anyway, good luck finding the rest of the combo, and take it easy.</Page>
+    </Dialogue>
+
+    <RevealFacts>
+      <FactID>GABBRO_HINT_FOUND_FACT</FactID>
+      <FactID>GABBRO_COMBO_PART</FactID>
+      <FactID>RIEBECK_HINT_RUMOR</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,111 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>TIMBER_HEARTH</ID>
+
+  <!--The entry for the vault-->
+  <Entry>
+    <ID>VAULT_ENTRY</ID>
+    <Name>Clockwork Vault</Name>
+    <Curiosity>CLOCKWORK_VAULT_CURIOSITY</Curiosity>
+
+    <RumorFact>
+      <ID>VAULT_RUMOR</ID>
+      <Text>I found a weird clockwork vault next to the launch pad elevator.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>ESKER_COMBO_PART</ID>
+      <SourceID>ESKER_HINT_ENTRY</SourceID>
+      <Text>I got part of the combo from a recording Esker left.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>FELDSPAR_COMBO_PART</ID>
+      <SourceID>FELDSPAR_HINT_ENTRY</SourceID>
+      <Text>I got part of the combo from a recording Feldspar left.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>CHERT_COMBO_PART</ID>
+      <SourceID>CHERT_HINT_ENTRY</SourceID>
+      <Text>I got part of the combo from a recording Chert left.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>GABBRO_COMBO_PART</ID>
+      <SourceID>GABBRO_HINT_ENTRY</SourceID>
+      <Text>I got part of the combo from a recording Gabbro left.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>RIEBECK_COMBO_PART</ID>
+      <SourceID>RIEBECK_HINT_ENTRY</SourceID>
+      <Text>I got part of the combo from a recording Riebeck left.</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>HAL_COMBO_PART</ID>
+      <SourceID>HAL_HINT_ENTRY</SourceID>
+      <Text>I got part of the combo from a recording Hal left.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>VAULT_OPENED_FACT</ID>
+      <Text>The vault contained an old picture and a very sweet note.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--The entry for Esker's hint-->
+  <Entry>
+    <ID>ESKER_HINT_ENTRY</ID>
+    <Name>Esker's Hint</Name>
+  
+    <RumorFact>
+      <ID>ESKER_HINT_RUMOR</ID>
+      <Text>Slate says that the recording next to him is a hint from Esker.</Text>
+    </RumorFact>
+  
+    <ExploreFact>
+      <ID>ESKER_HINT_FOUND_FACT</ID>
+      <Text>I found the first hint from Esker sitting next to slate.</Text>
+    </ExploreFact>
+  
+    <ExploreFact>
+      <ID>HUNT_EXPLANATION_FACT</ID>
+      <Text>Apparently I should expect a scavenger hunt hint from every traveller. Once I find them all, I can open the vault.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--The entry for Feldspar's hint-->
+  <Entry>
+    <ID>FELDSPAR_HINT_ENTRY</ID>
+    <Name>Feldspar's Hint</Name>
+  
+    <RumorFact>
+      <ID>FELDSPAR_HINT_RUMOR</ID>
+      <SourceID>ESKER_HINT_ENTRY</SourceID>
+      <Text>According to Esker's hint, I can find Feldspar's recording somewhere where I can practice repairing my ship.</Text>
+    </RumorFact>
+  
+    <ExploreFact>
+      <ID>FELDSPAR_HINT_FOUND_FACT</ID>
+      <Text>I found the recording from Feldspar in the "satellite" in the Zero-G Cave.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--The entry for Riebeck's hint-->
+  <Entry>
+    <ID>RIEBECK_HINT_ENTRY</ID>
+    <Name>Riebeck's Hint</Name>
+  
+    <RumorFact>
+      <ID>RIEBECK_HINT_RUMOR</ID>
+      <SourceID>GABBRO_HINT_ENTRY</SourceID>
+      <Text>"The quiet shade, where the trees do move, in the ancient glade, I’ve left something for you."</Text>
+    </RumorFact>
+  
+    <ExploreFact>
+      <ID>RIEBECK_HINT_FOUND_FACT</ID>
+      <Text>I found Riebeck's recording next to Gabbro's quantum poem.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

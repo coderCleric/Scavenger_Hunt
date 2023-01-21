@@ -1,0 +1,26 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>...</Page>
+      <Page>......</Page>
+      <Page>Aw, c’mon buddy, you didn’t really think you weren’t gonna hear from your buddy Hal, did you?</Page>
+      <Page>When I was walking by the museum a couple months ago and heard all of the travelers planning this, I knew that I had to get in on it.</Page>
+      <Page>I mean seriously, we’ve been best buds since we were hatchlings, I’m borderline insulted that they didn’t ask for me to participate!</Page>
+      <Page>...Not really, of course, I know that there’s a certain camaraderie that you travelers have that doesn’t quite extend to the ground crew, so it makes sense that they wanted to do something for ya.</Page>
+      <Page>I’m honestly actually kinda flattered with how quickly they roped me into it once I asked.</Page>
+      <Page>... I know that it’s a big system out there, and a small village down here, but don’t forget about me, okay? I know exploring space and finally having a good translator to figure out what the Nomai were all about is a really big deal, but we’ve been such close friends for so long and, y’know…</Page>
+      <Page>That’s a big deal to me, probably one of the biggest deals.</Page>
+      <Page>Anyway, aahhh I’m running out of tape, the last part of the combo is the middle button okayflysafeby-</Page>
+      <Page>The recording ends abruptly as it reaches the end of the tape.</Page>
+    </Dialogue>
+
+    <RevealFacts>
+      <FactID>HAL_HINT_FOUND_FACT</FactID>
+      <FactID>HAL_COMBO_PART</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

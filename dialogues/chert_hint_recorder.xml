@@ -1,0 +1,20 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hello Hatchling! I hope Feldspar didn’t put this anywhere terribly dangerous, but knowing them they almost certainly did. I know that they’re our best pilot, but they can be a little reckless sometimes.</Page>
+      <Page>Anyway, you're not here to hear about all that, you're here to figure out about the next hint and the next part of the combination! I’ll answer the combination first, you need to hit the third button again.</Page>
+      <Page>As for Gabbro’s hint, I’m pretty proud of this one. You know how much I love to brag about my skills with my Little Scout, but the other day I managed to hit something really impressive without even leaving my camp on Ember Twin! So, I think I’m going to tie Gabbro’s recording to a Little Scout, and launch it at that same thing again.</Page>
+      <Page>As for what that thing is, I’ll just tell you that it is small and nobody has landed on it yet. I’ll make sure to land the message on the front of it for you, so it’s easier to find.</Page>
+    </Dialogue>
+
+    <RevealFacts>
+      <FactID>CHERT_HINT_FOUND_FACT</FactID>
+      <FactID>CHERT_COMBO_PART</FactID>
+      <FactID>GABBRO_HINT_RUMOR</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

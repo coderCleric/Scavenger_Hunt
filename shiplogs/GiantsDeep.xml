@@ -1,0 +1,20 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>GIANTS_DEEP</ID>
+  
+  <!--The entry for Chert's hint-->
+  <Entry>
+    <ID>CHERT_HINT_ENTRY</ID>
+    <Name>Chert's Hint</Name>
+
+    <RumorFact>
+      <ID>CHERT_HINT_RUMOR</ID>
+      <SourceID>FELDSPAR_HINT_ENTRY</SourceID>
+      <Text>Feldspar says that they left Chert's recording at the last place they visited before Dark Bramble.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>CHERT_HINT_FOUND_FACT</ID>
+      <Text>I found Chert's recording in the core of Giant's Deep.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

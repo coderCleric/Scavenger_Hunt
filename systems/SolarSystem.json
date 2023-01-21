@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+  "entryPositions": [
+    {
+      "id": "VAULT_ENTRY",
+      "position": {
+        "x": 955.5865,
+        "y": 919.2719
+      }
+    },
+    {
+      "id": "ESKER_HINT_ENTRY",
+      "position": {
+        "x": 400,
+        "y": 1200
+      }
+    },
+    {
+      "id": "FELDSPAR_HINT_ENTRY",
+      "position": {
+        "x": 595.0902,
+        "y": 1364.182
+      }
+    },
+    {
+      "id": "CHERT_HINT_ENTRY",
+      "position": {
+        "x": 833.6369,
+        "y": 1539.636
+      }
+    },
+    {
+      "id": "GABBRO_HINT_ENTRY",
+      "position": {
+        "x": 1080.007,
+        "y": 1536.089
+      }
+    },
+    {
+      "id": "RIEBECK_HINT_ENTRY",
+      "position": {
+        "x": 1257.634,
+        "y": 1330.728
+      }
+    },
+    {
+      "id": "HAL_HINT_ENTRY",
+      "position": {
+        "x": 1412.273,
+        "y": 1107.364
+      }
+    }
+  ]
+}

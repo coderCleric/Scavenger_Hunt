@@ -1,0 +1,20 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>INTERLOPER</ID>
+
+  <!--The entry for Gabbro's hint-->
+  <Entry>
+    <ID>GABBRO_HINT_ENTRY</ID>
+    <Name>Gabbro's Hint</Name>
+
+    <RumorFact>
+      <ID>GABBRO_HINT_RUMOR</ID>
+      <SourceID>CHERT_HINT_ENTRY</SourceID>
+      <Text>Apparently, Chert tied Gabbro's hint and fired it on the front of something small that nobody's landed on before.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>GABBRO_HINT_FOUND_FACT</ID>
+      <Text>Gabbro's hint was on the front of the Interloper.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

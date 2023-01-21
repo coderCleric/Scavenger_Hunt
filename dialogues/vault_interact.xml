@@ -1,0 +1,68 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Vault</NameField>
+
+  <!--Starting node-->
+  <DialogueNode>
+    <Name>START</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>There seems to be a large, clockwork vault in front of you with some buttons on the front.</Page>
+      <Page>What do you want to do?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Back away.</Text>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Press random buttons.</Text>
+        <DialogueTarget>BUTTONS</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Enter the combination.</Text>
+        <RequiredLogCondition>ESKER_HINT_FOUND_FACT</RequiredLogCondition>
+        <RequiredLogCondition>FELDSPAR_HINT_FOUND_FACT</RequiredLogCondition>
+        <RequiredLogCondition>CHERT_HINT_FOUND_FACT</RequiredLogCondition>
+        <RequiredLogCondition>GABBRO_HINT_FOUND_FACT</RequiredLogCondition>
+        <RequiredLogCondition>RIEBECK_HINT_FOUND_FACT</RequiredLogCondition>
+        <RequiredLogCondition>HAL_HINT_FOUND_FACT</RequiredLogCondition>
+        <DialogueTarget>COMBO</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!--Pressing random buttons-->
+  <DialogueNode>
+    <Name>BUTTONS</Name>
+    <Dialogue>
+      <Page>Although the buttons make a satisfying clicking noise, nothing happens.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <!--Entering the correct combo-->
+  <DialogueNode>
+    <Name>COMBO</Name>
+    <Dialogue>
+      <Page>Punching in the combination from the travelers and Hal, the vault swings open.</Page>
+      <Page>Inside, you find a picture in a simple wooden frame. The picture is from a few years ago, and shows everyone you know cramped in a room around a bed, smiling and posing for the camera.</Page>
+      <Page>In the bed is a younger you, giving a thumbs up and a grin, bandages around your head and your right leg elevated in a cast.</Page>
+      <Page>It’s a picture from after your first practice in the Zero-G Cave.</Page>
+      <Page>Turning the frame over, there’s a note taped to the back.</Page>
+      <Page>“From all of us to you, hatchling, so you don’t get lonely making big discoveries out there. ::)  Signed - Everyone”</Page>
+      <Page>You slip the photo and note into your pocket, closing the vault.</Page>
+    </Dialogue>
+
+    <RevealFacts>
+      <FactID>VAULT_OPENED_FACT</FactID>
+    </RevealFacts>
+    <SetCondition>VAULT_OPENED</SetCondition>
+  </DialogueNode>
+  
+  <!--After the vault has been opened this loop-->
+  <DialogueNode>
+    <Name>OPENED</Name>
+    <EntryCondition>VAULT_OPENED</EntryCondition>
+    <Dialogue>
+      <Page>You smile, knowing how much effort the others must have put into setting this up for you.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>
