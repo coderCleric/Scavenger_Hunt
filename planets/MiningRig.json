@@ -9,6 +9,7 @@
         "path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_HEA_Recorder",
         "parentPath": "Structure_TH_HEA_MiningRig",
         "isRelativeToParent": true,
+        "keepLoaded": true,
         "removeComponents": true,
         "position": {
           "x": 0.6285,
@@ -27,8 +28,8 @@
         "rename": "feldspar_recorder_dialogue",
         "parentPath": "Structure_TH_HEA_MiningRig/feldspar_hint_recorder/",
         "xmlFile": "dialogues/feldspar_hint_recorder.xml",
-        "radius": 3,
-        "range": 5,
+        "radius": 0.5,
+        "range": 3,
         "position": {
           "x": 0,
           "y": 0,

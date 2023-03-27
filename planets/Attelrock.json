@@ -3,32 +3,16 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "ShipLog": {
     "xmlFile": "shiplogs/Attelrock.xml",
-    "spriteFolder": "assets/shiplog_images",
-    "curiosities": [
-      {
-        "id": "CLOCKWORK_VAULT_CURIOSITY",
-        "highlightColor": {
-          "r": 209,
-          "g": 45,
-          "b": 27,
-          "a": 255
-        },
-        "color": {
-          "r": 94,
-          "g": 12,
-          "b": 3,
-          "a": 255
-        }
-      }
-    ]
+    "spriteFolder": "assets/shiplog_images"
   },
   "Props": {
     "details": [
       {
         "rename": "hal_hint_recorder",
         "path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_HEA_Recorder",
+        "keepLoaded": true,
         "removeComponents": true,
-        "alignToNormal": true,
+        "alignRadial": true,
         "position": {
           "x": 2.304599,
           "y": 77.507,

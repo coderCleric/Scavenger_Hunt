@@ -3,24 +3,7 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "ShipLog": {
     "xmlFile": "shiplogs/TimberHearth.xml",
-    "spriteFolder": "assets/shiplog_images",
-    "curiosities": [
-      {
-        "id": "CLOCKWORK_VAULT_CURIOSITY",
-        "highlightColor": {
-          "r": 209,
-          "g": 45,
-          "b": 27,
-          "a": 255
-        },
-        "color": {
-          "r": 94,
-          "g": 12,
-          "b": 3,
-          "a": 255
-        }
-      }
-    ]
+    "spriteFolder": "assets/shiplog_images"
   },
   "Props": {
     "details": [
@@ -41,8 +24,9 @@
       {
         "rename": "esker_hint_recorder",
         "path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_HEA_Recorder",
+        "keepLoaded": true,
         "removeComponents": true,
-        "alignToNormal": true,
+        "alignRadial": true,
         "position": {
           "x": 15.94197,
           "y": -40.65475,
@@ -52,9 +36,10 @@
       {
         "rename": "riebeck_hint_recorder",
         "path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_HEA_Recorder",
+        "keepLoaded": true,
         "parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSaplings/Quantum_PoemTree",
         "removeComponents": true,
-        "alignToNormal": true,
+        "alignRadial": true,
         "isRelativeToParent": true,
         "position": {
           "x": 0.6454,
@@ -76,22 +61,25 @@
           "y": -41.33939,
           "z": 186.8965
         },
-        "remoteTriggerPosition": {
-          "x": 11.4577,
-          "y": -46.7388,
-          "z": 186.2213
-        },
-        "remoteTriggerRadius": 3
+        "remoteTrigger": {
+          "rename": "slate_hunt_dialogue_trigger",
+          "radius": 3,
+          "position": {
+            "x": 11.4577,
+            "y": -46.7388,
+            "z": 186.2213
+          }
+        }
       },
       {
         "rename": "vault_dialogue",
         "xmlFile": "dialogues/vault_interact.xml",
-        "radius": 1,
+        "radius": 0.5,
         "range": 1,
         "position": {
-          "x": 12.61631,
-          "y": -46.39989,
-          "z": 186.3088
+          "x": 12.59825,
+          "y": -46.37906,
+          "z": 186.2952
         }
       },
       {

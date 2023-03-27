@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assetbundles",
-    "\\dialogues",
-    "\\planets"
+    "\\planets",
+    "\\shiplogs",
+    "\\systems"
   ],
-  "SelectedNode": "\\dialogues\\feldspar_hint_recorder.xml",
   "PreviewInSolutionExplorer": false
 }
